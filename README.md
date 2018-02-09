@@ -25,21 +25,24 @@ This project comes with integration of -
 
 ## Getting Started
 
+1. Clone this repo
 
-1. To run, go to project folder and run
+`https://github.com/mohandere/cra-boilerplate.git`
+
+2. To run, go to project folder and run
 
 `$ npm install`
 or
 `$ yarn install` (if you are using yarn)
 
 
-2. Now start dev server by running -
+3. Now start dev server by running -
 
 `$ npm run start`
 or
 `$ yarn start`
 
-3. visit - http://localhost:3000/
+4. visit - http://localhost:3000/
 
 To create production ready codes -
 
