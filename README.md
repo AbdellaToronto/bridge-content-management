@@ -1,25 +1,52 @@
 # cra-boilerplate
 
-This is an boilerplate project for quick start enterprise level applications using [Create React App](https://github.com/facebookincubator/create-react-app) latest version.
+This project is an [Create React App](https://github.com/facebookincubator/create-react-app) boilerplate
+with integration of Redux, React Router, Bootsrap for quick start enterprise level applications.
 
 
 ### Advantages
 
-- No more configuration needed to setup redux store, routes.
+- Ready with redux store, routing.
+- `Domain-style` for code structure
 
 This project comes with integration of -
 
 - [React js - ^16.2.0](https://facebook.github.io/react/)
 - [Redux js - ^3.7.2](http://redux.js.org/)
 - [react bootstrap - ^3](https://react-bootstrap.github.io)
+- [redux-observable - ^0.18.0](https://redux-observable.js.org)
 - [react-router - ^4.1.2](https://github.com/ReactTraining/react-router)
 - [react-redux - ^5.0.6](http://redux.js.org/docs/basics/UsageWithReact.html)
 - react-router-dom - ^4.2.2
 - react-router-redux - ^5.0.0-alpha.6
 - [rxjs - ^5.4.3](reactivex.io/rxjs/)
-- [redux-observable - ^0.18.0](https://redux-observable.js.org)
 - [axios - ^0.17.1](https://github.com/mzabriskie/axios)
 - and some other common libs...
+
+## Getting Started
+
+
+1. To run, go to project folder and run
+
+`$ npm install`
+or
+`$ yarn install` (if you are using yarn)
+
+
+2. Now start dev server by running -
+
+`$ npm run start`
+or
+`$ yarn start`
+
+3. visit - http://localhost:3000/
+
+To create production ready codes -
+
+`$ npm run build`
+
+for more commands refer `package.json`
+
 
 ## Create React App Boilerplate
 
@@ -39,7 +66,7 @@ Before starting development please go through -
 - [Tips to learn React + Redux](https://www.robinwieruch.de/tips-to-learn-react-redux/)
 
 
-## Code Structure / Folders structure / organisation
+## Code/Directory structure
 
 Project uses `Domain-style` for code structure-
 
@@ -50,12 +77,31 @@ Reference -
 - http://redux.js.org/docs/faq/CodeStructure.html
 - http://engineering.kapost.com/2016/01/organizing-large-react-applications/
 
-Feature folder must contain booststrap file named `index.js` and css file '[feature].css' at root
+
+### Adding new Module/Feature
+
+- Create a Module/Feature folder at `src/`
+like - - `src/home`
+Feature folder must contain booststrap file named `index.js` and css file 'style.css' at root
 
 Like -
 
 - `src/home/index.js`
 - `src/home/style.css`
+
+Next as per need, add sub folders like -
+
+- `src/home/actions/`
+- `src/home/reducers/`
+- `src/home/epics/`
+- `src/home/containers/`
+- `src/home/components/`
+
+
+### Actions
+
+- Create folder named `actions` inside Feature folder like - `src/home/actions`
+- Place `actionTypes.js` which contains all actions to be exported
 
 ### Reducers
 
