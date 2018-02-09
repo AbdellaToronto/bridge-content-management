@@ -3,7 +3,7 @@
 This project is an [Create React App](https://github.com/facebookincubator/create-react-app) boilerplate
 with integration of Redux, React Router, Redux observable & React Bootstrap for quick start enterprise level applications.
 
-<img src="https://raw.githubusercontent.com/mohandere/cra-boilerplate/master/screenshot.png" width="120">
+<img src="https://raw.githubusercontent.com/mohandere/cra-boilerplate/master/screenshot.png" width="600">
 
 ### Advantages
 
