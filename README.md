@@ -64,6 +64,8 @@ Before starting development please go through -
 
 ## Code/Directory structure
 
+Refer `src/home/` module for an ideal directory structure
+
 Project uses `Domain-style` for code structure-
 
 Domain-style : separate folders per feature or domain, possibly with sub-folders per file type
