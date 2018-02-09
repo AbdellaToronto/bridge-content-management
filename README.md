@@ -9,6 +9,8 @@ with integration of Redux, React Router, Redux observable & React Bootstrap for 
 
 - Ready with redux store, routing.
 - `Domain-style` for code structure
+- Redux observable integration
+- Scalable
 
 This project comes with integration of -
 
@@ -51,16 +53,6 @@ To create production ready codes -
 
 for more commands refer `package.json`
 
-
-## Create React App Boilerplate
-
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
-
-
-
 ## Roadmap
 
 Before starting development please go through -
@@ -80,6 +72,10 @@ Reference -
 
 - http://redux.js.org/docs/faq/CodeStructure.html
 - http://engineering.kapost.com/2016/01/organizing-large-react-applications/
+
+#### Common components
+
+Place all common components such as Header/Footer in `src/common/components` folder.
 
 
 ### Adding new Module/Feature
