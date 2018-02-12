@@ -3,15 +3,21 @@
 [![Build Status](https://travis-ci.org/mohandere/cra-boilerplate.svg?branch=master)](https://travis-ci.org/mohandere/cra-boilerplate)
 
 This project is an [Create React App](https://github.com/facebookincubator/create-react-app) boilerplate
-with integration of Redux, React Router, Redux observable & React Bootstrap for quick start enterprise level applications.
+with integration of Redux, React Router, Redux observable & React Bootstrap and Scss for quick start enterprise level applications.
 
 <img src="https://raw.githubusercontent.com/mohandere/cra-boilerplate/master/screenshot.png" width="600">
 
+Before starting with project, I strongly recommended to headover [CRA](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
+) documentation.
+
+
 ### Advantages
 
-- Ready with redux store, routing.
-- `Domain-style` for code structure
+- Ready with Redux
+- React router
 - Redux observable integration
+- Scss
+- `Domain-style` for code structure
 - Scalable
 
 This project comes with integration of -
@@ -27,6 +33,7 @@ This project comes with integration of -
 - [rxjs - ^5.4.3](reactivex.io/rxjs/)
 - [axios - ^0.17.1](https://github.com/mzabriskie/axios)
 - and some other common libs...
+
 
 ## Getting Started
 
@@ -71,6 +78,8 @@ Refer `src/home/` module for an ideal directory structure
 Project uses `Domain-style` for code structure-
 
 Domain-style : separate folders per feature or domain, possibly with sub-folders per file type
+
+For more details refer `/src/home` folder.
 
 Reference -
 
@@ -133,6 +142,7 @@ example - `src/home/style.css`
 
 Finally you can import that css file in `index.js` file
 example - `src/home/index.js` will import `src/home/style.css`
+
 
 ## Something Missing?
 
