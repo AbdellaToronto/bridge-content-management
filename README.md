@@ -146,7 +146,7 @@ example - `src/home/index.js` will import `src/home/style.css`
 
 ## Something Missing?
 
-File an issue (here)[https://github.com/mohandere/cra-boilerplate/issues].
+File an issue [here](https://github.com/mohandere/cra-boilerplate/issues).
 
 
 ## License
