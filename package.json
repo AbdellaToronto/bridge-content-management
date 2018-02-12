@@ -7,7 +7,6 @@
     "bootstrap": "^3.3.7",
     "classnames": "^2.2.5",
     "font-awesome": "^4.7.0",
-    "gh-pages": "^1.1.0",
     "history": "^4.7.2",
     "lodash": "^4.17.5",
     "moment": "^2.20.1",
@@ -42,9 +41,6 @@
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
-  },
-  "homepage": "https://mohandere.github.io/cra-boilerplate/"
+  }
 }
