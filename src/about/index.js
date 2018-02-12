@@ -12,6 +12,7 @@ class About extends React.Component {
 	    		<h2 className="text-center">
 		        About
 		      </h2>
+		      <p>About page</p>
 			  </Grid>
 		  </div>
     );

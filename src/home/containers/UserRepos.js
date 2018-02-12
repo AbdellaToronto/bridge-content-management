@@ -7,6 +7,7 @@ import {
 	doUserRepos
 } from '../actions/doUserRepos';
 import { bindActionCreators } from 'redux'
+import FontAwesome from 'react-fontawesome'
 
 class UserRepos extends Component {
 
@@ -17,16 +18,29 @@ class UserRepos extends Component {
 
 	render() {
 		let { repos } = this.props;
-		if (_.isEmpty(repos)) {
-			return null;
+		let pageContent = ''
+
+		if (this.props.loading) {
+      pageContent = (
+        <div className="userReposLoader">
+          <FontAwesome name="spinner fa-spin fa-2x" />
+        </div>
+      )
+		} else {
+			pageContent = (
+				<ul className="repos">
+					{repos.map((repo, i) => <Repo key={i} {...repo} />)}
+				</ul>
+			)
 		}
 
 		return (
 			<div>
 				<h3>Github Projects</h3>
-				<ul className="repos">{repos.map((repo, i) => <Repo key={i} {...repo} />)}</ul>
+				{pageContent}
 			</div>
 		);
+
 	}
 }
 
@@ -36,7 +50,8 @@ UserRepos.propTypes = {
 
 const mapStateToProps = state => {
 	return {
-		repos: state.home.userRepos.repos
+		repos: state.home.userRepos.repos,
+		loading: state.home.userRepos.isLoading
 	};
 };
 

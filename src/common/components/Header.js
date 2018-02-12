@@ -9,7 +9,7 @@ class Header extends Component {
         <Navbar>
 				  <Navbar.Header>
 				    <Navbar.Brand>
-				      <a href="/">Create React App</a>
+				      Create React App
 				    </Navbar.Brand>
 				  </Navbar.Header>
 				  <Nav>

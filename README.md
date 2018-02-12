@@ -5,7 +5,8 @@
 This project is an [Create React App](https://github.com/facebookincubator/create-react-app) boilerplate
 with integration of Redux, React Router, Redux observable & React Bootstrap and Scss for quick start enterprise level applications.
 
-<img src="https://raw.githubusercontent.com/mohandere/cra-boilerplate/master/screenshot.png" width="600">
+<!-- <img src="https://raw.githubusercontent.com/mohandere/cra-boilerplate/master/screenshot.png" width="600"> -->
+### [Demo](https://mohandere.github.io/cra-boilerplate/#/)
 
 Before starting with project, I strongly recommended to headover [CRA](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
 ) documentation.
@@ -142,6 +143,10 @@ example - `src/home/style.css`
 
 Finally you can import that css file in `index.js` file
 example - `src/home/index.js` will import `src/home/style.css`
+
+## Deployment
+
+Refer [deployment](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment) section from CRA doc.
 
 
 ## Something Missing?
