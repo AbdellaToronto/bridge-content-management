@@ -1,7 +1,6 @@
 {
   "name": "cra-boilerplate",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.0.1",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "history": "^4.7.2",
@@ -32,5 +31,24 @@
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohandere/cra-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "create-react-app",
+    "react-redux",
+    "react-router",
+    "reactstrap",
+    "redux-observable",
+    "boilerplate"
+  ],
+  "author": {
+    "name": "Mohan Dere",
+    "url": "https://github.com/mohandere"
+  },
+  "license": "MIT"
 }
