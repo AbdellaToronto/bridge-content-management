@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.org/mohandere/cra-boilerplate.svg?branch=master)](https://travis-ci.org/mohandere/cra-boilerplate)
 
-This project is an [Create React App](https://github.com/facebookincubator/create-react-app) boilerplate
-with integration of Redux, React Router, Redux observable & React Bootstrap and Scss for quick start enterprise level applications.
+This project is an [Create React App - v1.1.1](https://github.com/facebookincubator/create-react-app) boilerplate
+with integration of Redux, React Router, Redux observable & Reactstrap(Bootstrap v4) and Scss for quick start enterprise level applications.
 
 <!-- <img src="https://raw.githubusercontent.com/mohandere/cra-boilerplate/master/screenshot.png" width="600"> -->
 ### [Demo](https://mohandere.github.io/cra-boilerplate/#/)
@@ -12,28 +12,24 @@ Before starting with project, I strongly recommended to headover [CRA](https://g
 ) documentation.
 
 
-### Advantages
-
-- Ready with Redux
-- React router
-- Redux observable integration
-- Scss
-- `Domain-style` for code structure
-- Scalable
+### Integrations
 
 This project comes with integration of -
 
 - [React js - ^16.2.0](https://facebook.github.io/react/)
 - [Redux js - ^3.7.2](http://redux.js.org/)
-- [react bootstrap - ^3](https://react-bootstrap.github.io)
+- [reactstrap - Easy to use React Bootstrap 4 components](https://reactstrap.github.io/)
 - [redux-observable - ^0.18.0](https://redux-observable.js.org)
 - [react-router - ^4.1.2](https://github.com/ReactTraining/react-router)
 - [react-redux - ^5.0.6](http://redux.js.org/docs/basics/UsageWithReact.html)
 - react-router-dom - ^4.2.2
 - react-router-redux - ^5.0.0-alpha.6
 - [rxjs - ^5.4.3](reactivex.io/rxjs/)
-- [axios - ^0.17.1](https://github.com/mzabriskie/axios)
-- and some other common libs...
+
+#### Added
+
+- Scss
+- `Domain-style` for code structure
 
 
 ## Getting Started
@@ -129,14 +125,14 @@ Next as per need, add sub folders like -
 
 ## Ajax Handling
 
-We are using `axios` and `rxjs` to handle ajax.
+This boierplate comes with `rxjs` to handle ajax. Additionally as per need we can use other libs like `axios`.
 
 Using Rxjs DOM api for ajax see file - `rxjs/observable/dom/ajax`
 [AjaxObservable](http://reactivex.io/rxjs/file/es6/observable/dom/AjaxObservable.js.html)
 
 ## Styling
 
-we are using `scss` Preprocessor. Create a feature/domain specfic scss file, example - `src/home/home.scss`
+we are using `scss` Preprocessor. Create a feature/domain specfic scss file, example - `src/home/style.scss`
 
 After compilation the new corresponding CSS file next to it.
 example - `src/home/style.css`
