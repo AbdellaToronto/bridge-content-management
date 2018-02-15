@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-bootstrap';
+import { Container } from 'reactstrap';
 import UserRepos from './containers/UserRepos';
 import './style.css';
 
@@ -7,10 +7,10 @@ class Home extends Component {
 	render() {
 		return (
 			<div id="home">
-				<Grid>
+				<Container>
 					<h2 className="text-center">Home</h2>
 					<UserRepos />
-				</Grid>
+				</Container>
 			</div>
 		);
 	}

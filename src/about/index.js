@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid } from 'react-bootstrap';
+import { Container } from 'reactstrap';
 import './style.css';
 
 class About extends React.Component {
@@ -8,12 +8,12 @@ class About extends React.Component {
 
     return (
     	<div id="about">
-	    	<Grid>
+	    	<Container>
 	    		<h2 className="text-center">
 		        About
 		      </h2>
-		      <p>About page</p>
-			  </Grid>
+		      <p>About page content</p>
+			  </Container>
 		  </div>
     );
   }

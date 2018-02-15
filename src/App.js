@@ -7,10 +7,7 @@ import store, { history } from './store';
 import ReduxToastr from 'react-redux-toastr'
 
 import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/css/bootstrap-theme.css';
-import 'font-awesome/css/font-awesome.css';
 import './App.css';
-
 // routes
 import routes from './routes';
 

@@ -1,26 +1,51 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink
+} from 'reactstrap';
+import { Container } from 'reactstrap';
+
 
 class Header extends Component {
+
+	constructor(props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
 
 	render () {
 		return (
 	    <header>
-        <Navbar>
-				  <Navbar.Header>
-				    <Navbar.Brand>
-				      Create React App
-				    </Navbar.Brand>
-				  </Navbar.Header>
-				  <Nav>
-				    <NavItem eventKey={1} href="#/">
-				      Home
-				    </NavItem>
-				    <NavItem eventKey={2} href="#/about">
-				      About
-				    </NavItem>
-				  </Nav>
-				</Navbar>
+	    	<Container>
+					<Navbar color="faded" light expand="md">
+	          <NavbarBrand href="/">reactstrap</NavbarBrand>
+	          <NavbarToggler onClick={this.toggle} />
+	          <Collapse isOpen={this.state.isOpen} navbar>
+	            <Nav className="ml-auto" navbar>
+	              <NavItem>
+	                <NavLink href="#/">Home</NavLink>
+	              </NavItem>
+	              <NavItem>
+	                <NavLink href="#/about">About</NavLink>
+	              </NavItem>
+	            </Nav>
+	          </Collapse>
+	        </Navbar>
+        </Container>
 	    </header>
 	  )
 	}

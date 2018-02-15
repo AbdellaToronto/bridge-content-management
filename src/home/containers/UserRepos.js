@@ -6,7 +6,6 @@ import {
 	doUserRepos
 } from '../actions/doUserRepos';
 import { bindActionCreators } from 'redux'
-import FontAwesome from 'react-fontawesome'
 
 class UserRepos extends Component {
 
@@ -22,7 +21,7 @@ class UserRepos extends Component {
 		if (this.props.loading) {
       pageContent = (
         <div className="userReposLoader">
-          <FontAwesome name="spinner fa-spin fa-2x" />
+          Loading...
         </div>
       )
 		} else {
