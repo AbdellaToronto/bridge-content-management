@@ -3,7 +3,7 @@ import { createEpicMiddleware } from 'redux-observable';
 import createHistory from 'history/createHashHistory';
 import { routerMiddleware } from 'react-router-redux';
 
-// import root reducer
+// import root epics/reducer
 import rootEpic from './rootEpic';
 import rootReducer from './rootReducer';
 import queryString from 'query-string';
