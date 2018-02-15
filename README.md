@@ -1,6 +1,6 @@
 # cra-boilerplate
 
-[![Build Status](https://travis-ci.org/mohandere/cra-boilerplate.svg?branch=master)](https://travis-ci.org/mohandere/cra-boilerplate)
+[![Build Status](https://travis-ci.org/mohandere/cra-boilerplate.svg?branch=master)](https://travis-ci.org/mohandere/cra-boilerplate) [![npm](https://img.shields.io/npm/v/npm.svg)]() [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
 
 This project is an [Create React App - v1.1.1](https://github.com/facebookincubator/create-react-app) boilerplate
 with integration of Redux, React Router, Redux observable & Reactstrap(Bootstrap v4) and Scss for quick start enterprise level applications.
