@@ -21,9 +21,9 @@ This project comes with integration of -
 - [reactstrap - Easy to use React Bootstrap 4 components](https://reactstrap.github.io/)
 - [redux-observable - ^0.18.0](https://redux-observable.js.org)
 - [react-router - ^4.1.2](https://github.com/ReactTraining/react-router)
-- [react-redux - ^5.0.6](http://redux.js.org/docs/basics/UsageWithReact.html)
-- react-router-dom - ^4.2.2
-- react-router-redux - ^5.0.0-alpha.6
+- [react-redux - ^5.0.6](https://github.com/reactjs/react-redux)
+- [react-router-dom - ^4.2.2](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+- [react-router-redux - ^5.0.0-alpha.6](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-redux)
 - [rxjs - ^5.4.3](reactivex.io/rxjs/)
 
 #### Added

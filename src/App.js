@@ -6,8 +6,10 @@ import store, { history } from './store';
 
 import ReduxToastr from 'react-redux-toastr'
 
+// Styles
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+
 // routes
 import routes from './routes';
 
