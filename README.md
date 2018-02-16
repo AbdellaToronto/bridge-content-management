@@ -4,7 +4,7 @@
 This project is an [Create React App - v1.1.1](https://github.com/facebookincubator/create-react-app) boilerplate
 with integration of Redux, React Router, Redux observable & Reactstrap(Bootstrap v4) and Scss for quick start enterprise level applications.
 
-[![Build Status](https://travis-ci.org/mohandere/cra-boilerplate.svg?branch=master)](https://travis-ci.org/mohandere/cra-boilerplate) [![npm](https://img.shields.io/npm/v/npm.svg)]() [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]()
+[![Build Status](https://travis-ci.org/mohandere/cra-boilerplate.svg?branch=master)](https://travis-ci.org/mohandere/cra-boilerplate) [![npm](https://img.shields.io/npm/v/npm.svg)]() [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)]() [![Dependency Status](https://dependencyci.com/github/mohandere/cra-boilerplate/badge)](https://dependencyci.com/github/mohandere/cra-boilerplate)
 
 <!-- <img src="https://raw.githubusercontent.com/mohandere/cra-boilerplate/master/screenshot.png" width="600"> -->
 
@@ -67,10 +67,11 @@ Before starting development please go through -
 
 - [Presentational and Container Components
 ](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+- [All the fundamental React.js concepts, jammed into this single Medium article](https://medium.freecodecamp.org/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2)
 - [Tips to learn React + Redux](https://www.robinwieruch.de/tips-to-learn-react-redux/)
+- [When do I know I’m ready for Redux?](https://medium.com/dailyjs/when-do-i-know-im-ready-for-redux-f34da253c85f)
 
-
-## Code/Directory structure
+## Code structure
 
 Refer `src/home/` module for an ideal directory structure
 
