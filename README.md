@@ -10,13 +10,11 @@ with integration of Redux, React Router, Redux observable & Reactstrap(Bootstrap
 
 ### [Demo](https://mohandere.github.io/cra-boilerplate/#/)
 
-Before starting with project, I strongly recommended to headover [CRA](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
+Before starting with project, please headover to [CRA](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md
 ) documentation.
 
 
-### Integrations
-
-This project comes with integration of -
+### Supported Integrations
 
 - [React js - ^16.2.0](https://facebook.github.io/react/)
 - [Redux js - ^3.7.2](http://redux.js.org/)
@@ -31,7 +29,7 @@ This project comes with integration of -
 #### Added
 
 - Scss
-- `Domain-style` for code structure
+- [Domain-style](https://github.com/reactjs/redux/blob/master/docs/faq/CodeStructure.md) for code structure
 
 
 ## Getting Started
