@@ -4,8 +4,6 @@ import { Provider } from 'react-redux'
 import { ConnectedRouter } from 'react-router-redux';
 import store, { history } from './store';
 
-import ReduxToastr from 'react-redux-toastr'
-
 // Styles
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
@@ -29,12 +27,6 @@ class App extends Component {
               {routes}
             </div>
             <Footer />
-            <ReduxToastr
-              timeOut={3000}
-              newestOnTop={false}
-              position="top-right"
-              transitionIn="fadeIn"
-              transitionOut="fadeOut"/>
           </div>
         </ConnectedRouter>
       </Provider>

@@ -24,7 +24,7 @@ Before starting with project, please headover to [CRA](https://github.com/facebo
 - [react-redux - ^5.0.6](https://github.com/reactjs/react-redux)
 - [react-router-dom - ^4.2.2](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 - [react-router-redux - ^5.0.0-alpha.6](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-redux)
-- [rxjs - ^5.4.3](reactivex.io/rxjs/)
+- [rxjs - ^5.4.3](http://reactivex.io/rxjs/)
 
 #### Added
 
