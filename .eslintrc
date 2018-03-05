@@ -1,7 +1,6 @@
 {
   "extends": [
     "eslint:recommended",
-    "plugin:import/errors",
     "plugin:react/recommended"
   ],
   "env": {
@@ -10,7 +9,7 @@
     "node": true,
     "es6": true
   },
-  "plugins": ["import", "react"],
+  "plugins": ["react"],
   "parserOptions": {
     "ecmaVersion": 6
   },
